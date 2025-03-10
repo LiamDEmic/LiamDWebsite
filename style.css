@@ -1,0 +1,82 @@
+body{
+	background-color: #000000;
+}
+header{
+	margin: 0px;
+}
+main{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+h1{
+	color: #ffffff;
+}
+h2{
+	color: #ffffff;
+}
+h3{
+	color: #ffffff;
+}
+h4{
+	color: #ffffff;
+}
+h5{
+	color: #ffffff;
+}
+h6{
+	color: #ffffff;
+}
+p{
+	color: #ffffff;
+}
+pre{
+	color: #ffffff;
+}
+li{
+	color: #ffffff;
+}
+.header h1{
+	text-align: center;
+}
+.navbar ul{
+	list-style-type: none;
+	background-color: #696969;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.navbar a{
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+}
+.navbar li{
+	float: left;
+}
+.gallery{
+	display: inline-block;
+	border: 1px solid #696969;
+	margin: 5px;
+	width: 200px;
+}
+.gallery2{
+	display: inline-block;
+	border: 1px solid #696969;
+	margin: 5px;
+	width: 1px;
+}
+.gallery .description{
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
+}
+.gallery:hover{
+	border: 1px solid #ffffff;
+}
+.gallery img{
+	width: 100%;
+}
+@media screen and (max-width: 600px){
+	/*Make all necessary changes for your site to better support mobile devices here*/
+}
